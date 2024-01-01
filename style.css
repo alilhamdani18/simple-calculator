@@ -66,6 +66,10 @@
   background-color: #053942;
   cursor: pointer;
 }
+.kotak.hasil:hover {
+  background-color: #078ea5;
+
+}
 
 @media screen and (max-width:500px) {
   body {
