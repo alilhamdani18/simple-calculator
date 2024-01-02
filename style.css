@@ -7,7 +7,7 @@
 .container {
   width: 350px;
   margin: 20px auto;
-  background-color: #010d24;
+  background-color: #011224;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   padding: 1.3em;
@@ -32,21 +32,21 @@
 .block-input .top {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 2px;
+  gap: 4px;
 }
 
 .block-input .kotak {
   border: 1px solid #010d24;
   padding: 1.2em; 
-  border-radius: 5px;
-  background-color: #0f1b1e;
+  border-radius: 10px;
+  background-color: #1d3136;
 }
 .block-input .bottom {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas: 'nol nol titik hasil';
-  gap: 2px;
-  margin-top: 2px;
+  gap: 4px;
+  margin-top: 4px;
 }
 .kotak.nol {
   grid-area: nol;
@@ -59,7 +59,7 @@
 }
 
 .kotak:hover {
-  background-color: #142327;
+  background-color: rgb(32, 59, 67);
   cursor: pointer;
 }
 .kotak.formula:hover {

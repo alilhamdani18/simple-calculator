@@ -13,33 +13,35 @@
       <h2>Simple Calculator</h2>
       <p>(Created by alil_hd)</p>
     </div>
-    <div class="block-result">0</div>
+    <div class="block-result"></div>
     <div class="block-input">
       <div class="top">
-        <div class="kotak formula">C</div>
-        <div class="kotak formula">+/-</div>
-        <div class="kotak formula">%</div>
-        <div class="kotak formula">/</div>
-        <div class="kotak">7</div>
-        <div class="kotak">8</div>
-        <div class="kotak">9</div>
-        <div class="kotak formula">x</div>
-        <div class="kotak">4</div>
-        <div class="kotak">5</div>
-        <div class="kotak">6</div>
-        <div class="kotak formula">-</div>
-        <div class="kotak">1</div>
-        <div class="kotak">2</div>
-        <div class="kotak">3</div>
-        <div class="kotak formula">+</div>
+        <div class="kotak formula" id="clear">C</div>
+        <div class="kotak formula" onclick ="min()">+/-</div>
+        <div class="kotak formula" onclick="persen()">%</div>
+        <div class="kotak formula" onclick="bagi()">/</div>
+        <div class="kotak" onclick="input(7)">7</div>
+        <div class="kotak" onclick="input(8)">8</div>
+        <div class="kotak" onclick="input(9)">9</div>
+        <div class="kotak formula" onclick="kali()">x</div>
+        <div class="kotak" onclick="input(4)">4</div>
+        <div class="kotak" onclick="input(5)">5</div>
+        <div class="kotak" onclick="input(6)">6</div>
+        <div class="kotak formula" onclick="kurang()">-</div>
+        <div class="kotak" onclick="input(1)">1</div>
+        <div class="kotak" onclick="input(2)">2</div>
+        <div class="kotak" onclick="input(3)">3</div>
+        <div class="kotak formula" onclick="plus()">+</div>
       </div>
         <div class="bottom">
-          <div class="kotak nol">0</div>
-          <div class="kotak titik">.</div>
-          <div class="kotak hasil">=</div>
+          <div class="kotak nol" onclick="input(0)">0</div>
+          <div class="kotak titik" onclick="titik()">.</div>
+          <div class="kotak hasil" onclick="jumlahkan()">=</div>
         </div>
     </div>
   </div>
+
+  <script src="script.js"></script>
   
 </body>
 </html>
